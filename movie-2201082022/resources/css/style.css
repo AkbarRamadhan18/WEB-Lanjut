@@ -1,0 +1,46 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.learn-more-button {
+    background-color: #000;
+    color: #fff;
+}
+
+.learn-more-button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* CSS untuk teks di tengah layar */
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered-text h1 {
+    font-size: 70px;
+}
+
+.centered-text p {
+    font-size: 30px;
+}
