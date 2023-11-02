@@ -25,7 +25,7 @@
                         </div>
                     </div>
                     <div class="mt-3 text-center">
-                        <a href="/movies" class="btn btn-primary">
+                        <a href="/homepage" class="btn btn-primary">
                             <i class="fa fa-arrow-left"></i> Kembali
                         </a>
                     </div>
@@ -39,7 +39,7 @@
                 Data film tidak ditemukan!
             </div>
             <div class="mt-3">
-                <a href="/rekomendasi" class="btn btn-primary">
+                <a href="/homepage" class="btn btn-primary">
                     <i class="fa fa-arrow-left"></i> Kembali
                 </a>
             </div>
