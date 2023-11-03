@@ -13,7 +13,7 @@
                             <div class="carousel-item{{ $key === 0 ? ' active' : '' }}">
                                 <div class="d-flex justify-content-between mx-5">
                                     @foreach ($chunk as $rekomendasi)
-                                        <div class="card mb-3" style="width: 12rem;">
+                                        <div class="card mb-3" style="width: 13rem;">
                                             <img src="/images/{{ $rekomendasi['foto_sampul'] }}" class="card-img-top"
                                                 alt="{{ $rekomendasi['judul'] }} Poster">
                                             <div class="card-body text-center">
