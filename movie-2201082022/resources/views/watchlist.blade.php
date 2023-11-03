@@ -25,6 +25,6 @@
                 @endforeach
             </tbody>
         </table><br><br>
-        <a href="/movies" class="btn btn-success">Kembali</a>
+        <a href="/homepage" class="btn btn-success">Kembali</a>
     </div>
 @endsection

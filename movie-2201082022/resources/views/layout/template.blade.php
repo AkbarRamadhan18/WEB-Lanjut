@@ -46,6 +46,11 @@
         </div>
     </nav>
 
+
+    <div class="">
+        @yield('rekomendasi')
+    </div>
+
     <div class="container my-2">
         @yield('content')
     </div>

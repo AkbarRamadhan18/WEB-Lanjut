@@ -28,8 +28,8 @@
                 @endforeach
             </div>
         @else
-            <p>No results found.</p>
+            <p>Film Tidak Di Temukan</p>
         @endif
-        <a href="/movies" class="btn btn-success">Kembali</a>
+        <a href="/homepage" class="btn btn-success">Kembali</a>
     </div>
 @endsection
