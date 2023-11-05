@@ -4,12 +4,12 @@
 
 @section('content')
     @if ($rekomendasi)
-        <div class="container mt-5">
+        <div class="container mt-3">
             <div class="row">
                 <div class="col-md-4">
                     <img src="/images/{{ $rekomendasi['foto_sampul'] }}" class="img-fluid rounded movie-poster"
                         alt="{{ $rekomendasi['judul'] }} Poster">
-                </div>
+                </div><br><br>
                 <div class="col-md-8">
                     <div class="card">
                         <div class="card-body">
@@ -18,14 +18,13 @@
                             <p class="card-text"><strong>Tahun :</strong> {{ $rekomendasi['tahun'] }}</p>
                             <p class="card-text"><strong>Pemain :</strong> {{ implode(', ', $rekomendasi['pemain']) }}</p>
                             <div class="mt-3">
-                                <strong>Rating Pengguna:</strong>
-                                <input id="ratingInput" type="number" class="rating" data-min="1" data-max="5"
-                                    data-step="0.1" data-size="md" value="{{ $rekomendasi['rating'] }}" readonly>
+                                <strong>Rating Pengguna: <span class="star1">&#9733;</span>{{ $rekomendasi['rating'] }}
+                                </strong>
                             </div>
                         </div>
                     </div>
                     <div class="mt-3 text-center">
-                        <a href="/homepage" class="btn btn-primary">
+                        <a href="/homepage" class="btn btn-success">
                             <i class="fa fa-arrow-left"></i> Kembali
                         </a>
                     </div>
@@ -39,7 +38,7 @@
                 Data film tidak ditemukan!
             </div>
             <div class="mt-3">
-                <a href="/homepage" class="btn btn-primary">
+                <a href="/homepage" class="btn btn-success">
                     <i class="fa fa-arrow-left"></i> Kembali
                 </a>
             </div>
